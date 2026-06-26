@@ -115,9 +115,6 @@ Open it with **Live Server** in Visual Studio Code.
 
 **Praveen Venkatesh**
 
-GitHub: https://github.com/your-username
-
-LinkedIn: https://linkedin.com/in/your-profile
 
 ---
 
