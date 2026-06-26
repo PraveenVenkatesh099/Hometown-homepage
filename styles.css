@@ -1,0 +1,154 @@
+/*
+====================================
+COLOR PALETTE
+====================================
+
+Dark Blue  : #1D3557
+Blue       : #457B9D
+Aqua       : #A8DADC
+Light      : #F1FAEE
+Red        : #E63946
+
+*/
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    margin: 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Default styling for all images */
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 750px;
+    height: 400px;
+
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+}
+
+/* Main heading */
+
+.main-title {
+    color: white;
+    background-color: #1D3557;
+
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    font-size: 40px;
+    margin-bottom: 15px;
+
+    width: fit-content;
+}
+
+/* Subtitle */
+
+.sub-title {
+    color: white;
+    background-color: #457B9D;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    max-width: 500px;
+    width: fit-content;
+
+    font-size: 25px;
+    margin-top: 0;
+}
+
+/* =========================
+   ACTIVITIES SECTION
+========================= */
+
+.activities {
+    width: 750px;
+    height: 400px;
+
+    background-color: #F1FAEE;
+}
+
+/* Section heading */
+
+h3 {
+    color: #1D3557;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+/* Flex container for activity cards */
+
+#description {
+    display: flex;
+}
+
+/* Individual activity card */
+
+.col {
+    padding: 10px 40px;
+    color: #1D3557;
+}
+
+.col p {
+    margin-top: 0;
+}
+
+/* =========================
+   GUIDE SECTION
+========================= */
+
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 750px;
+    height: 400px;
+}
+
+/* Guide information card */
+
+.guide-main {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #A8DADC;
+    border-bottom: 8px solid #1D3557;
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+/* Guide image */
+
+#pro-pic {
+    border-radius:25px;
+    padding:0px 10px;
+    width:200px;
+}
+
+/* Guide body */
+.guide-body1{
+    margin: 0px;
+    padding: 0px;
+}
